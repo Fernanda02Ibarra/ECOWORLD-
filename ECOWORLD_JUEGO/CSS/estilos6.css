@@ -1,0 +1,108 @@
+body{
+    background-image: url(../imagenes/fondFeli.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;/*no se repite la imagen*/
+  }
+  
+  #letrero{
+      float:relative;
+      margin: -100px 10px;
+      float: right;
+  }
+  #letrero2{
+    float:relative;
+    margin: -10px 10px;
+    float: left;
+    width: 25%;
+    height: 25%;
+}
+#letrero3{
+    position: relative;
+    margin: 200px  350px;
+    width: 700px;
+    height: 400px;
+    float: right;
+    
+  
+  }
+#datos{
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Zen Old Mincho', serif; 
+    color: #013001;
+    letter-spacing: 1px;
+    font-size: 70px;
+    text-shadow: 1px 1px #88ff00;
+    margin: 270px 550px;
+    float: left;
+
+}
+#ex1{
+    position: relative;
+  margin: -500px 100px;
+    height: 500px;
+    float: right;
+  }
+  #ex2{
+    position: relative;
+  margin: -500px -20px;
+  height: 500px;
+    float: left;
+  }
+  #tucan{
+    position: relative;
+  margin: -670px -7px;
+  max-width: 23%;
+    float: right;
+  
+  }
+  #chango1{
+    position: relative;
+  margin: -660px 250px;
+  max-width: 20%;
+    float: left;
+  }
+  #mariposa{
+    position: relative;
+  margin: -650px 600px;
+  max-width: 20%;
+    float: left;
+  
+  }
+  .btn{
+    position: relative;
+     
+      background:linear-gradient(to top left, #411f0c,#9e4a36);
+      box-shadow: #00ff6a 5px 5px 5px;
+      color: rgb(255, 255, 255);
+      font-family: cursive;
+      font-size: 20px;
+      text-align: center;
+      width: 14%;
+      margin: -180px 600px;
+      float: right;
+      
+  }
+  .btn:hover{
+      color: #f3f3f3;
+      font-weight: 800;
+      color: #011431;
+      background: linear-gradient(to top left, #dffa68,#d1fd0b);
+  
+  }
+  .verde{
+    color: #46e009;
+  }
+  .azul{
+    color: #00c3dd;
+  }
+  .amarillo{
+    color: #f7de00;
+  }
+  .logo{
+      position: absolute;
+      margin:550px 550px;
+      background-color: #011431;
+  }

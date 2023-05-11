@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  
+  font-family: sans-serif;
+  background-image: url("https://m.media-amazon.com/images/I/71Zl+S8jE3L._AC_SL1000_.jpg"); 
+  background-size: 100vw 100vh;
+  background-attachment: fixed;/*no se repite la imagen*/
+}
+
+.formulario{
+  z-index: 1;
+  width: 600px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 20;
+  padding: 20px;
+  
+  position: relative;
+}
+
+.formulario_juego{
+  text-align: center;
+  margin:90px 100px;
+  color: rgba(45, 57, 228, 0.7);
+  font-family: 'Courier', serif;
+  font-size: 60px;
+}
+
+.formulario_input, .formulario_label, .formulario_submit{
+  display: block;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+.formulario_input{
+  padding: 15px;
+border-radius: 30px;
+width: 350px;
+background-color:#9dd7ee;
+  border: 3px solid rgb(131, 139, 9);
+  margin: 100px;
+  color: rgb(3, 29, 44);
+  margin-bottom: 80px;
+}
+
+
+.formulario_label{
+  padding-left: 100px;
+  position: absolute;
+  margin-top: -180px;
+  color: rgb(2, 95, 80);
+}
+.formulario_label2{
+ margin: 120px;
+ border-radius: 30px;
+ width: 330px;
+ color: white;
+ border: 3px solid rgb(222, 238, 1);
+ text-align: center;
+  position: absolute;
+  font-size: 20px;
+  margin-top: -60px;
+  background-image: url(/imagenes/input.jpg);
+
+}
+
+
+#marco{
+  position: relative;
+margin: 50px 400px;
+width: 600px;
+height: 549px;
+ border-radius: 20px; 
+  float: left;
+
+}
+.verde{
+  color: #035a0e;
+}
+.azul{
+  color: #090081;
+}
+.amarillo{
+  color: #d3b119;
+}
+.btn{
+  position: relative;
+    border-radius: 15px;
+    background:linear-gradient(to top left, #f75b00,#f93200);
+    box-shadow: #3804f3 5px 5px 5px;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    margin: -60px 220px;
+    float: left;
+    
+}
+.btn:hover{
+    color: #f3f3f3;
+    font-weight: 800;
+    background: linear-gradient(to top left, #29f76d,#d5e924);
+
+}
+#exit{
+  position: relative;
+margin: 0px 0px;
+ max-width: 20%;
+  float: right;
+}

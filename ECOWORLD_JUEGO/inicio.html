@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/estilo1.css">
+    <title>GAME</title>
+    <script src="JS/script.js"></script>
+    <script src="JS//sonido.js"></script>
+</head>
+<body>
+<div class="page">
+     <canvas id="myCanvas" width="1326" height="615"
+style="border:20px solid #6b3b04;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createLinearGradient(0,0,800,0);
+grd.addColorStop(0,"#29f76d");
+grd.addColorStop(1,"#d5e924");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(0,0,1500,900);
+</script>
+
+<img class="info-img" id="imagen1" src="imagenes/fondo.jpg">
+<img type="submit" class="info-img" id="imagen3" src="imagenes/letrero.png" onclick="abrirCreditos()">
+<h1 class="nom">THE ANIMALS</h1>
+<h1 class="nom2"><span class="verde">E</span><span class="azul">C</span><span class="amarillo">O</span><span class="verde">W</span><span class="azul">O</span><span class="amarillo">R</span><span class="verde">L</span><span class="azul">D</span></h1>
+<a href="formulario.html"><div class="btn">Ingresar</div></a>
+<a href="creditos.html"><img class="info-img" id="imagen4" src="imagenes/creditos.png"></a>
+<img  type="submit" value="Play" id="play" src="imagenes/play.png">
+	<img type="submit"value="Pause" id="pause" src="imagenes/pause.png">
+  <img class="info-img" id="tucan" src="imagenes/tucan.png">
+  <img class="info-img" id="rana" src="imagenes/rana.png">
+  <img class="info-img" id="serpiente" src="imagenes/serpiente.png">
+  <img class="info-img" id="chango1" src="imagenes/chango.png">
+  <img class="info-img" id="chango2" src="imagenes/chango.png">
+  <img class="info-img" id="pajaro" src="imagenes/pajaro.png">
+  <img class="info-img" id="mariposa" src="imagenes/mariposa.png">
+</div>
+</div>
+
+
+</body>
+</html>
